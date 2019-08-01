@@ -1,6 +1,7 @@
 <h1 align="center">Gladson Lyimo</h1>
 
 <p align="center">
+  <a href="https://app.netlify.com/sites/gladsonlyimo/deploys"><img src="https://api.netlify.com/api/v1/badges/7d3eed05-aa6e-4ab5-ad67-245de0a1da86/deploy-status" alt="" /></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="" /></a>
 </p>
 
