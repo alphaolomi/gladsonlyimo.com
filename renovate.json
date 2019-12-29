@@ -8,9 +8,7 @@
     ":maintainLockFilesMonthly"
   ],
   "lockFileMaintenance": {
-    "extends": [
-      "group:all"
-    ],
+    "extends": ["group:all"],
     "commitMessageAction": "Update"
   }
 }
