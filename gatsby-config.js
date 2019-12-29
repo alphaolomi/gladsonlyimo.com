@@ -1,21 +1,21 @@
 require(`dotenv`).config({
-  path: `.env`,
-})
+  path: `.env`
+});
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Gladson Lyimo - Personal Website`,
+    siteTitleAlt: `Gladson Lyimo - Personal Website`
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
-      options: {},
+      options: {}
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
+        trackingId: process.env.GOOGLE_ANALYTICS_ID
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -31,17 +31,17 @@ module.exports = {
           {
             src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
-            type: `image/png`,
+            type: `image/png`
           },
           {
             src: `/android-chrome-512x512.png`,
             sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
-      },
+            type: `image/png`
+          }
+        ]
+      }
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
-  ],
-}
+    `gatsby-plugin-netlify`
+  ]
+};
